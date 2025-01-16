@@ -23,9 +23,9 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 db = SQLAlchemy(app)
 
 # Twilio Configuration
-TWILIO_SID = 'your_twilio_sid'
-TWILIO_AUTH_TOKEN = 'your_auth_token'
-WHATSAPP_NUMBER = 'your_twilio_whatsapp_number'
+TWILIO_SID = 'ACef52a3f45ba2c381ca8c771e3c9dde3d'
+TWILIO_AUTH_TOKEN = 'f3b43d50ea02c63344ff028b35340966'
+WHATSAPP_NUMBER = '+16203496352'
 client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
 # Models
